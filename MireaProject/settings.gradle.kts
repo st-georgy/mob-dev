@@ -19,10 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lesson3"
+rootProject.name = "MireaProject"
 include(":app")
-include(":intentapp")
-include(":sharer")
-include(":favoritebook")
-include(":systemintentsapp")
-include(":simplefragmentapp")
