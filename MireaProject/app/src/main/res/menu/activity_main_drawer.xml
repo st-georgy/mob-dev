@@ -41,5 +41,13 @@
             android:id="@+id/nav_voice"
             android:icon="@android:drawable/ic_lock_silent_mode_off"
             android:title="VoiceFragment" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="ProfileFragment" />
+        <item
+            android:id="@+id/nav_files"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="FilesFragment" />
     </group>
 </menu>

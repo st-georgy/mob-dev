@@ -53,4 +53,14 @@
         android:name="ru.mirea.zhidkov.mireaproject.VoiceFragment"
         android:label="fragment_voice"
         tools:layout="@layout/fragment_voice" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.zhidkov.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_files"
+        android:name="ru.mirea.zhidkov.mireaproject.FilesFragment"
+        android:label="fragment_files"
+        tools:layout="@layout/fragment_files" />
 </navigation>
