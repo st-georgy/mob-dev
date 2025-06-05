@@ -29,5 +29,17 @@
             android:id="@+id/nav_background"
             android:icon="@android:drawable/ic_media_ff"
             android:title="BackgroundFragment" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/compass_arrow"
+            android:title="CompassFragment" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="CameraFragment" />
+        <item
+            android:id="@+id/nav_voice"
+            android:icon="@android:drawable/ic_lock_silent_mode_off"
+            android:title="VoiceFragment" />
     </group>
 </menu>

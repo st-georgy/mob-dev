@@ -39,4 +39,18 @@
         android:name="ru.mirea.zhidkov.mireaproject.BackgroundFragment"
         android:label="fragment_background"
         tools:layout="@layout/fragment_background" />
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="ru.mirea.zhidkov.mireaproject.CompassFragment"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.zhidkov.mireaproject.CameraFragment"
+        android:label="CameraFragment" />
+    <fragment
+        android:id="@+id/nav_voice"
+        android:name="ru.mirea.zhidkov.mireaproject.VoiceFragment"
+        android:label="fragment_voice"
+        tools:layout="@layout/fragment_voice" />
 </navigation>
